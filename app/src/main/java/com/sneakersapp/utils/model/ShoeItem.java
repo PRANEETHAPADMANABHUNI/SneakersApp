@@ -1,4 +1,4 @@
-package com.cricbuzz.sneakersapp.utils.model;
+package com.sneakersapp.utils.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package com.cricbuzz.sneakersapp.utils.adapter;
+package com.sneakersapp.utils.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.cricbuzz.sneakersapp.R;
-import com.cricbuzz.sneakersapp.utils.model.ShoeCart;
+import com.sneakersapp.R;
+import com.sneakersapp.utils.model.ShoeCart;
 
 import java.util.List;
 

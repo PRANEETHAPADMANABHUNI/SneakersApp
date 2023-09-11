@@ -1,4 +1,4 @@
-package com.cricbuzz.sneakersapp.views;
+package com.sneakersapp.views;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,10 +11,10 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.cricbuzz.sneakersapp.R;
-import com.cricbuzz.sneakersapp.utils.model.ShoeCart;
-import com.cricbuzz.sneakersapp.utils.model.ShoeItem;
-import com.cricbuzz.sneakersapp.viewmodel.CartViewModel;
+import com.sneakersapp.R;
+import com.sneakersapp.utils.model.ShoeCart;
+import com.sneakersapp.utils.model.ShoeItem;
+import com.sneakersapp.viewmodel.CartViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

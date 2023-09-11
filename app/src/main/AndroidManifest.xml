@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.cricbuzz.sneakersapp">
+    package="com.sneakersapp">
 
     <application
         android:allowBackup="true"
@@ -11,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SneakersApp">
         <activity
-            android:name=".views.CartActivity"
+            android:name="com.sneakersapp.views.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".views.DetailedActivity"
+            android:name="com.sneakersapp.views.DetailedActivity"
             android:exported="false" />
         <activity
-            android:name=".views.MainActivity"
+            android:name="com.sneakersapp.views.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

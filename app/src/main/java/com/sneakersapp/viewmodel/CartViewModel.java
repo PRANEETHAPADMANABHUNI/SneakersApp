@@ -1,12 +1,12 @@
-package com.cricbuzz.sneakersapp.viewmodel;
+package com.sneakersapp.viewmodel;
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.cricbuzz.sneakersapp.repository.CartRepo;
-import com.cricbuzz.sneakersapp.utils.model.ShoeCart;
+import com.sneakersapp.repository.CartRepo;
+import com.sneakersapp.utils.model.ShoeCart;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.cricbuzz.sneakersapp.dao;
+package com.sneakersapp.dao;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,7 +6,7 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.cricbuzz.sneakersapp.utils.model.ShoeCart;
+import com.sneakersapp.utils.model.ShoeCart;
 
 import java.util.List;
 

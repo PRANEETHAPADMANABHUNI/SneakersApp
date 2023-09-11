@@ -1,12 +1,12 @@
-package com.cricbuzz.sneakersapp.repository;
+package com.sneakersapp.repository;
 
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
 
-import com.cricbuzz.sneakersapp.dao.CartDAO;
-import com.cricbuzz.sneakersapp.database.CartDatabase;
-import com.cricbuzz.sneakersapp.utils.model.ShoeCart;
+import com.sneakersapp.dao.CartDAO;
+import com.sneakersapp.database.CartDatabase;
+import com.sneakersapp.utils.model.ShoeCart;
 
 import java.util.List;
 import java.util.concurrent.Executor;

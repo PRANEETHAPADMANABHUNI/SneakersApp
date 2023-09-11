@@ -1,4 +1,4 @@
-package com.cricbuzz.sneakersapp.database;
+package com.sneakersapp.database;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.cricbuzz.sneakersapp.dao.CartDAO;
-import com.cricbuzz.sneakersapp.utils.model.ShoeCart;
+import com.sneakersapp.dao.CartDAO;
+import com.sneakersapp.utils.model.ShoeCart;
 
 @Database(entities = {ShoeCart.class} , version = 1)
 public abstract class CartDatabase extends RoomDatabase {
