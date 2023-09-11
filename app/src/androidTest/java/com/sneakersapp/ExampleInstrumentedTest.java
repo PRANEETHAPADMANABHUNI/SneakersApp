@@ -1,4 +1,4 @@
-package com.cricbuzz.sneakersapp;
+package com.sneakersapp;
 
 import android.content.Context;
 
